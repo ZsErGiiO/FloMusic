@@ -1,0 +1,165 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+  color: white;
+  padding: 15vh 59vh; /* Espaciado arriba/abajo y a los lados */
+  margin-top: -20vh;
+}
+
+.profile__header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.profile__card {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px; /* ¡Aquí limitamos el ancho máximo! */
+  margin: 0 auto; /* ¡Centrado horizontal! */
+}
+
+.profile__info {
+  width: 100%;
+}
+
+.profile__field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.profile__field label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.profile__field input[type="text"],
+.profile__field input[type="email"],
+.profile__field input[type="file"] {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #2a2a2a;
+  color: white;
+  outline: none;
+}
+
+.profile__field input[type="text"]:focus,
+.profile__field input[type="email"]:focus {
+  background-color: #333;
+}
+
+.profile__photoPreview {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.profile__saveButton,
+.profile__logoutButton {
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.profile__saveButton {
+  background-color: #551c84;
+  color: white;
+}
+
+.profile__saveButton:hover {
+  background-color: #551c84;
+}
+
+.profile__logoutButton {
+  background-color: #e63946;
+  color: white;
+}
+
+.profile__logoutButton:hover {
+  background-color: #d62839;
+}
+
+@media (max-width: 1920px) {
+  .profile {
+    padding: 15vh 15%; /* Ajuste de espaciado para pantallas más grandes */
+  }
+
+  .profile__header {
+    font-size: 3rem; /* Aumenta el tamaño del título */
+  }
+
+  .profile__photoPreview {
+    width: 250px;
+    height: 250px; /* Foto más grande para pantallas más grandes */
+  }
+
+  .profile__saveButton,
+  .profile__logoutButton {
+    font-size: 1.2rem; /* Botones más grandes */
+  }
+}
+
+@media (max-width: 768px) {
+  .profile {
+    padding: 15vh 5%; /* Ajuste de espaciado para pantallas más pequeñas */
+  }
+
+  .profile__header {
+    font-size: 2rem; /* Disminuye el tamaño del título */
+  }
+
+  .profile__photoPreview {
+    width: 150px;
+    height: 150px; /* Foto más pequeña para pantallas más pequeñas */
+  }
+
+  .profile__saveButton,
+  .profile__logoutButton {
+    font-size: 1rem; /* Botones más pequeños */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile {
+    padding: 25vh 5%; /* Ajuste de espaciado para pantallas muy pequeñas */
+  }
+
+  .profile__header {
+    font-size: 1.5rem; /* Disminuye aún más el tamaño del título */
+  }
+
+  .profile__photoPreview {
+    width: 120px;
+    height: 120px; /* Foto más pequeña para pantallas muy pequeñas */
+  }
+
+  .profile__saveButton,
+  .profile__logoutButton {
+    font-size: 0.9rem; /* Botones más pequeños */
+  }
+}
+
+

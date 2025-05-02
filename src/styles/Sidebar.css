@@ -1,0 +1,119 @@
+/* Sidebar.css */
+.sidebar {
+  width: 230px;
+  background: -webkit-linear-gradient(270deg, #551c84,#181818);/* Chrome 10-25, Safari 5.1-6 */  background: linear-gradient(270deg, #551c84,#181818);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                                                                      
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  pointer-events: auto;
+  transition: transform 0.3s ease;
+}
+
+.sidebar.closed {
+  transform: translateX(-100%); /* Ocultamos el sidebar cuando está cerrado */
+}
+
+.Sidebar__logo {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.sidebar__logo h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.sidebar__menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__menuItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sidebar__icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.sidebar__menuItem p {
+  font-size: 16px;
+}
+
+/* Estilo para el botón de abrir/cerrar el sidebar */
+.sidebar__toggleButton {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  z-index: 1050; /* Asegura que el botón esté sobre el sidebar */
+  cursor: pointer;
+  display: none; /* Escondido por defecto */
+}
+
+/* Responsive: cuando el ancho es menor a 1024px */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 230px;
+  }
+
+  /* Mostrar el botón de toggle en pantallas pequeñas */
+  .sidebar__toggleButton {
+    display: block;
+  }
+
+  .sidebar.open {
+    transform: translateX(0); /* El sidebar se muestra cuando está abierto */
+  }
+
+  .sidebar__menuItem p {
+    font-size: 18px;
+  }
+
+  .sidebar__icon {
+    font-size: 22px;
+  }
+}
+
+/* Para pantallas grandes */
+@media (min-width: 1025px) {
+  .sidebar {
+    width: 230px; /* Sidebar siempre visible */
+  }
+
+  .sidebar__toggleButton {
+    display: none; /* Esconde el botón de toggle en pantallas grandes */
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar__menuItem p {
+    font-size: 16px; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+  }
+
+  .sidebar__icon {
+    font-size: 20px; /* Ajusta el tamaño del icono para pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar__menuItem p {
+    font-size: 14px; /* Ajusta el tamaño de la fuente para pantallas más pequeñas */
+  }
+
+  .sidebar__icon {
+    font-size: 18px; /* Ajusta el tamaño del icono para pantallas más pequeñas */
+  }
+}

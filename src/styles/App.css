@@ -1,0 +1,75 @@
+/* App.css */
+.app {
+  display: flex;
+  position: relative;
+}
+
+.app__body {
+  flex: 1; /* Hace que el contenido ocupe el espacio restante */
+  padding-left: 250px; /* Le damos espacio al sidebar */
+  background-color: #121212;
+  z-index: 1;  /* Aseguramos que el contenido esté por debajo */
+  height: 100vh;
+  width: 500px; 
+}
+
+.app__content {
+  margin-top: 20px;
+  padding: 0 20px;
+  color: white;
+  overflow-y: auto;
+  height: calc(100vh - 100px); /* Ajusta según el tamaño de tu header/player */
+}
+
+.app__playerContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;  /* Para que el reproductor siempre esté encima */
+}
+
+@media screen and (max-width: 1024px) { 
+  .app__body {
+    flex: 1; /* Hace que el contenido ocupe el espacio restante */
+    padding-left: 0px; /* Le damos espacio al sidebar */
+    background-color: #121212;
+    z-index: 1;  /* Aseguramos que el contenido esté por debajo */
+    height: 100vh;
+    width: 500px; 
+  }
+}
+
+
+@media screen and (max-width: 768px) { 
+  .app__body {
+    padding-left: 0px; /* Le damos espacio al sidebar */
+    background-color: #121212;
+    z-index: 1;  /* Aseguramos que el contenido esté por debajo */
+    height: 100vh;
+    width: 100%; 
+  }
+}
+
+@media screen and (max-width: 480px) { 
+  .app__body {
+    padding-left: 0px; /* Le damos espacio al sidebar */
+    background-color: #121212;
+    z-index: 1;  /* Aseguramos que el contenido esté por debajo */
+    height: 100vh;
+    width: 100%; 
+  }
+}
+
+@media screen and (max-width: 320px) { 
+  .app__body {
+    padding-left: 0px; /* Le damos espacio al sidebar */
+    background-color: #121212;
+    z-index: 1;  /* Aseguramos que el contenido esté por debajo */
+    height: 100vh;
+    width: 100%; 
+  }
+}
+
+
+

@@ -1,0 +1,619 @@
+{
+    "albums": [
+      {
+        "id": "1",
+        "title": "Don Kbron",
+        "artist": "Eladio Carrión",
+        "genre": "Reggaeton",
+        "cover": "/covers/DonKbron.png",
+        "tracks": [
+          {
+            "id": "1-1",
+            "title": "Invencible",
+            "duration": "1:30",
+            "audio": "/songs/Invencible.mp3",
+            "artist": "Eladio Carrión",
+            "cover": "/covers/DonKbron.png"
+          },
+          {
+            "id": "1-2",
+            "title": "Ohtani",
+            "duration": "3:18",
+            "audio": "/songs/Ohtani.mp3",
+            "artist": "Eladio Carrión",
+            "cover": "/covers/DonKbron.png"
+          },
+          {
+            "id": "1-3",
+            "title": "Vetements",
+            "duration": "3:20",
+            "audio": "/songs/Vetements.mp3",
+            "artist": "Eladio Carrión",
+            "cover": "/covers/DonKbron.png"
+          },
+          {
+            "id": "1-4",
+            "title": "H.I.M",
+            "duration": "2:10",
+            "audio": "/songs/HIM.mp3",
+            "artist": "Eladio Carrión",
+            "cover": "/covers/DonKbron.png"
+          },
+          {
+            "id": "1-5",
+            "title": "Broly",
+            "duration": "2:51",
+            "audio": "/songs/Broly.mp3",
+            "artist": "Eladio Carrión",
+            "cover": "/covers/DonKbron.png"
+          },
+          {
+            "id": "1-6",
+            "title": "Call My Line",
+            "duration": "3:32",
+            "audio": "/songs/CallMyLine.mp3",
+            "artist": "Eladio Carrión",
+            "cover": "/covers/DonKbron.png"
+          },
+          {
+            "id": "1-7",
+            "title": "100 Conmigo",
+            "duration": "2:31",
+            "audio": "/songs/100Conmigo.mp3",
+            "artist": "Eladio Carrión",
+            "cover": "/covers/DonKbron.png"
+          },
+          {
+            "id": "1-8",
+            "title": "Romeo Y julieta",
+            "duration": "3:26",
+            "audio": "/songs/RomeoYJulieta.mp3",
+            "artist": "Eladio Carrión",
+            "cover": "/covers/DonKbron.png"
+          },
+          {
+            "id": "1-9",
+            "title": "Me Muero",
+            "duration": "3:15",
+            "audio": "/songs/Me_Muero.mp3",
+            "artist": "Eladio Carrión",
+            "cover": "/covers/DonKbron.png"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Buenas Noches",
+        "artist": "Quevedo",
+        "genre": "Reggaeton",
+        "cover": "/covers/BuenasNoches.jpg",
+        "tracks": [
+          {
+            "id": "2-1",
+            "title": "KASSANDRA",
+            "duration": "3:03",
+            "audio": "/songs/KASSANDRA.mp3",
+            "artist": "Quevedo",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-2",
+            "title": "DURO",
+            "duration": "2:42",
+            "audio": "/songs/DURO.mp3",
+            "artist": "Quevedo",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-3",
+            "title": "IGUALES",
+            "duration": "3:03",
+            "audio": "/songs/IGUALES.mp3",
+            "artist": "Quevedo",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-4",
+            "title": "GRAN VÍA",
+            "duration": "3:33",
+            "audio": "/songs/GRANVIA.mp3",
+            "artist": "Quevedo, Aitana",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-5",
+            "title": "CHAPIADORA.COM",
+            "duration": "3:17",
+            "audio": "/songs/CHAPIADORA.COM.mp3",
+            "artist": "Quevedo",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-6",
+            "title": "POR ATRÁS",
+            "duration": "2:51",
+            "audio": "/songs/POR ATRAS.mp3",
+            "artist": "Quevedo",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-7",
+            "title": "14 FEBREROS",
+            "duration": "2:52",
+            "audio": "/songs/14FEBREROS.mp3",
+            "artist": "Quevedo, Sin Nombre",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-8",
+            "title": "LA 125",
+            "duration": "3:14",
+            "audio": "/songs/LA125.mp3",
+            "artist": "Quevedo, Yung Beef",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-9",
+            "title": "HALO",
+            "duration": "3:01",
+            "audio": "/songs/HALO.mp3",
+            "artist": "Quevedo, La Pantera",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-10",
+            "title": "MR. MOONDIAL",
+            "duration": "2:45",
+            "audio": "/songs/MR.MOONDIAL.mp3",
+            "artist": "Quevedo, Pitbull",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-11",
+            "title": "QUE ASCO DE TODO",
+            "duration": "3:10",
+            "audio": "/songs/QUEASCODETODO.mp3",
+            "artist": "Quevedo",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-12",
+            "title": "NOEMÚ",
+            "duration": "3:26",
+            "audio": "/songs/NOEMU.mp3",
+            "artist": "Quevedo",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-13",
+            "title": "SHIBATTO",
+            "duration": "2:18",
+            "audio": "/songs/SHIBATTO.mp3",
+            "artist": "Quevedo",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-14",
+            "title": "LOS DÍAS CONTADOS",
+            "duration": "2:41",
+            "audio": "/songs/LOSDÍASCONTADOS.mp3",
+            "artist": "Quevedo, Rels B",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-15",
+            "title": "EL ESTRIBILLO",
+            "duration": "2:41",
+            "audio": "/songs/ELESTRIBILLO.mp3",
+            "artist": "Quevedo",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-16",
+            "title": "AMANECIO",
+            "duration": "4:15",
+            "audio": "/songs/AMANECIÓ.mp3",
+            "artist": "Quevedo, De La Rose, De La Ghetto",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-17",
+            "title": "TE FALLÉ",
+            "duration": "3:39",
+            "audio": "/songs/TEFALLÉ.mp3",
+            "artist": "Quevedo, Sech",
+            "cover": "/covers/BuenasNoches.jpg"
+          },
+          {
+            "id": "2-18",
+            "title": "BUENAS NOCHES",
+            "duration": "3:58",
+            "audio": "/songs/BUENASNOCHES.mp3",
+            "artist": "Quevedo",
+            "cover": "/covers/BuenasNoches.jpg"
+          }
+        ]
+      },
+          {
+            "id": "3",
+            "title": "70's Funk Classics",
+            "artist": "James Brown",
+            "genre": "Funk",
+            "cover": "/covers/70sFunkClassics.jpg",
+            "tracks": [
+              {
+                "id": "3-1",
+                "title": "Sex Machine",
+                "duration": "5:16",
+                "audio": "/songs/SexMachine.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              },
+              {
+                "id": "3-2",
+                "title": "Super Bad, Part 1",
+                "duration": "3:01",
+                "audio": "/songs/SuperBadPart1.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              },
+              {
+                "id": "3-3",
+                "title": "The Payback",
+                "duration": "7:39",
+                "audio": "/songs/ThePayback.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              },
+              {
+                "id": "3-4",
+                "title": "Funky President",
+                "duration": "4:00",
+                "audio": "/songs/FunkyPresident.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              },
+              {
+                "id": "3-5",
+                "title": "Escape-ism",
+                "duration": "3:20",
+                "audio": "/songs/Escapeism.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              },
+              {
+                "id": "3-6",
+                "title": "Funky Drummer",
+                "duration": "7:02",
+                "audio": "/songs/FunkyDrummer.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              },
+              {
+                "id": "3-7",
+                "title": "Ain't It Funky Now, Part 1",
+                "duration": "3:17",
+                "audio": "/songs/AintItFunkyNowPart1.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              },
+              {
+                "id": "3-8",
+                "title": "Get Up, Get Into It and Get Involved",
+                "duration": "7:07",
+                "audio": "/songs/GetUpGetIntoItAndGetInvolved.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              },
+              {
+                "id": "3-9",
+                "title": "Think 73",
+                "duration": "3:17",
+                "audio": "/songs/Think.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              },
+              {
+                "id": "3-10",
+                "title": "Ain't It Funky Now, Parts 1 & 2",
+                "duration": "7:15",
+                "audio": "/songs/AintItFunkyNowParts1and2.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              },
+              {
+                "id": "3-11",
+                "title": "My Thang",
+                "duration": "4:20",
+                "audio": "/songs/MyThang.mp3",
+                "artist": "James Brown",
+                "cover": "/covers/70sFunkClassics.jpg"
+              }
+            ]
+          },
+              {
+                "id": "4",
+                "title": "Vivir al este del Edén",
+                "artist": "La Unión",
+                "genre": "Pop Rock",
+                "cover": "/covers/VivirAlEsteDelEden.jpg",
+                "tracks": [
+                  {
+                    "id": "4-1",
+                    "title": "Vivir al este del Edén",
+                    "duration": "4:09",
+                    "audio": "/songs/VivirAlEsteDelEden.mp3",
+                    "artist": "La Unión",
+                    "cover": "/covers/VivirAlEsteDelEden.jpg"
+                  },
+                  {
+                    "id": "4-2",
+                    "title": "Maracaibo",
+                    "duration": "4:18",
+                    "audio": "/songs/Maracaibo.mp3",
+                    "artist": "La Unión",
+                    "cover": "/covers/VivirAlEsteDelEden.jpg"
+                  },
+                  {
+                    "id": "4-3",
+                    "title": "Blues",
+                    "duration": "3:50",
+                    "audio": "/songs/Blues.mp3",
+                    "artist": "La Unión",
+                    "cover": "/covers/VivirAlEsteDelEden.jpg"
+                  },
+                  {
+                    "id": "4-4",
+                    "title": "Sin consentimiento",
+                    "duration": "4:25",
+                    "audio": "/songs/SinConsentimiento.mp3",
+                    "artist": "La Unión",
+                    "cover": "/covers/VivirAlEsteDelEden.jpg"
+                  },
+                  {
+                    "id": "4-5",
+                    "title": "La era del mar",
+                    "duration": "3:42",
+                    "audio": "/songs/LaEraDelMar.mp3",
+                    "artist": "La Unión",
+                    "cover": "/covers/VivirAlEsteDelEden.jpg"
+                  },
+                  {
+                    "id": "4-6",
+                    "title": "Más y más",
+                    "duration": "5:33",
+                    "audio": "/songs/MasYMas.mp3",
+                    "artist": "La Unión",
+                    "cover": "/covers/VivirAlEsteDelEden.jpg"
+                  },
+                  {
+                    "id": "4-7",
+                    "title": "A través del espejo",
+                    "duration": "3:55",
+                    "audio": "/songs/ATravesDelEspejo.mp3",
+                    "artist": "La Unión",
+                    "cover": "/covers/VivirAlEsteDelEden.jpg"
+                  },
+                  {
+                    "id": "4-8",
+                    "title": "Mi viejo barrio",
+                    "duration": "3:38",
+                    "audio": "/songs/MiViejoBarrio.mp3",
+                    "artist": "La Unión",
+                    "cover": "/covers/VivirAlEsteDelEden.jpg"
+                  },
+                  {
+                    "id": "4-9",
+                    "title": "Natalia",
+                    "duration": "3:49",
+                    "audio": "/songs/Natalia.mp3",
+                    "artist": "La Unión",
+                    "cover": "/covers/VivirAlEsteDelEden.jpg"
+                  }
+                ]
+              },
+              {
+                "id": "5",
+                "title": "Radio Futura",
+                "artist": "Radio Futura",
+                "genre": "Pop Rock",
+                "cover": "/covers/RadioFuturaGrandesExitos.jpg",
+                "tracks": [
+                  {
+                    "id": "5-1",
+                    "title": "Veneno en la piel",
+                    "duration": "3:52",
+                    "audio": "/songs/VenenoEnLaPiel.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-2",
+                    "title": "Si Me Dejas Solo",
+                    "duration": "4:11",
+                    "audio": "/songs/SiMeDejasSolo.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-3",
+                    "title": "Radar",
+                    "duration": "3:49",
+                    "audio": "/songs/Radar.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-4",
+                    "title": "Mercuriana",
+                    "duration": "4:24",
+                    "audio": "/songs/Mercuriana.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-5",
+                    "title": "Imagen Publica",
+                    "duration": "3:40",
+                    "audio": "/songs/ImagenPublica.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-6",
+                    "title": "El Amigo Desconocido",
+                    "duration": "4:02",
+                    "audio": "/songs/ElAmigoDesconocido.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-7",
+                    "title": "Corazón de Tiza",
+                    "duration": "4:01",
+                    "audio": "/songs/CorazondeTiza.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-8",
+                    "title": "Al Otro Lado",
+                    "duration": "4:06",
+                    "audio": "/songs/AlOtroLado.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-9",
+                    "title": "Tierra",
+                    "duration": "3:56",
+                    "audio": "/songs/Tierra.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-10",
+                    "title": "Paseo Con la Negra Flor",
+                    "duration": "4:20",
+                    "audio": "/songs/PaseoConlaNegraFlor.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-11",
+                    "title": "El Puente Azul",
+                    "duration": "3:33",
+                    "audio": "/songs/ElPuenteAzul.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-12",
+                    "title": "Última Ronda",
+                    "duration": "4:17",
+                    "audio": "/songs/UltimaRonda.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-13",
+                    "title": "La Noche Animal",
+                    "duration": "3:59",
+                    "audio": "/songs/LaNocheAnimal.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-14",
+                    "title": "La Estatua del Jardín Botánico",
+                    "duration": "4:10",
+                    "audio": "/songs/LaEstatuadelJardinBotanico.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-15",
+                    "title": "Enamorado de la Moda Juvenil",
+                    "duration": "3:25",
+                    "audio": "/songs/EnamoradodelaModaJuvenil.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-16",
+                    "title": "Oscuro Affaire",
+                    "duration": "4:05",
+                    "audio": "/songs/OscuroAffaire.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-17",
+                    "title": "En Alas de la Mentira",
+                    "duration": "4:03",
+                    "audio": "/songs/EnAlasdelaMentira.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-18",
+                    "title": "El Viento de África",
+                    "duration": "4:21",
+                    "audio": "/songs/ElVientodeAfrica.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-19",
+                    "title": "Zombi - 1991 Remastered",
+                    "duration": "3:47",
+                    "audio": "/songs/Zombi1991Remastered.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-20",
+                    "title": "Divina 'Los Bailes de Marte'",
+                    "duration": "4:00",
+                    "audio": "/songs/DivinaLosBailesdeMarte.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-21",
+                    "title": "Un Africano por la Gran Vía",
+                    "duration": "3:58",
+                    "audio": "/songs/UnAfricanoporlaGranVia.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-22",
+                    "title": "Tormenta de Arena",
+                    "duration": "4:15",
+                    "audio": "/songs/TormentadeArena.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-23",
+                    "title": "Semilla Negra",
+                    "duration": "4:08",
+                    "audio": "/songs/SemillaNegra.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  },
+                  {
+                    "id": "5-24",
+                    "title": "La Secta del Mar",
+                    "duration": "3:54",
+                    "audio": "/songs/LaSectaDelMar.mp3",
+                    "artist": "Radio Futura",
+                    "cover": "/covers/RadioFuturaGrandesExitos.jpg"
+                  }
+                ]
+              }
+            ]
+          }
+          
+    

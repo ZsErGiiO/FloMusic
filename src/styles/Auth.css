@@ -1,0 +1,130 @@
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  background-color: #121212;
+  color: white;
+  padding: 0 2rem; /* Cambiado de 59vh a un padding razonable */
+}
+
+.auth__card {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.auth__header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.auth__form {
+  width: 100%;
+}
+
+.auth__form input[type="text"],
+.auth__form input[type="email"],
+.auth__form input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2a2a2a;
+  color: white;
+  outline: none;
+}
+
+.auth__form input:focus {
+  background-color: #333;
+}
+
+.auth__button {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  background-color: #551c84;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.auth__button:hover {
+  background-color: #6b259f;
+}
+
+.auth__toggle {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #bbb;
+  cursor: pointer;
+  text-align: center;
+}
+
+.auth__toggle:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .auth__header {
+    font-size: 2rem;
+  }
+
+  .auth__card {
+    padding: 20px;
+  }
+
+  .auth__form input[type="text"],
+  .auth__form input[type="email"],
+  .auth__form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .auth__button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .auth__form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .auth__header {
+    font-size: 1.5rem;
+  }
+
+  .auth__card {
+    padding: 15px;
+  }
+
+  .auth__form input[type="text"],
+  .auth__form input[type="email"],
+  .auth__form input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .auth__button {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+}
+

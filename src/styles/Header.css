@@ -1,0 +1,356 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #551c84; /* Tu color morado personalizado */
+  color: white;
+  z-index: 1000;
+}
+
+.header__navButtons {
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+  margin-left: 6vh;
+}
+
+.header__arrowButton {
+  background: rgba(0, 0, 0, 0.0);
+  border: none;
+  color: white;
+  padding: 8px;
+  font-size: 36px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.header__arrowButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.header__searchContainer {
+  position: relative;
+  width: 300px;
+  margin-left: 20px; /* << NUEVO: ajusta este valor hasta que se vea perfecto */
+}
+
+
+.header__search {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.header__search input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 90%;
+  font-size: 14px;
+}
+
+.header__searchIcon {
+  font-size: 20px;
+  color: #551c84;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+}
+
+.header__userIcon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Estilos del Dropdown de resultados */
+
+.header__searchDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #282828;
+  border: 1px solid #333;
+  border-top: none;
+  z-index: 10;
+  max-height: 300px;
+  overflow-y: auto;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+.header__searchItem {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.2s;
+  font-size: 14px;
+}
+
+.header__searchItem:hover {
+  background-color: #3e3e3e;
+}
+
+.header__suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%; /* IMPORTANTE */
+  background-color: #282828;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.header__suggestionItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  color: white;
+  font-size: 14px;
+  
+}
+
+.header__suggestionItem:hover {
+  background-color: #3e3e3e;
+}
+
+.header__suggestionImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.header__suggestionText {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__suggestionTitle {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header__suggestionArtist {
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.header__userInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.header__userPhoto {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white; /* O puedes usar otro color de borde */
+}
+
+.header__userIcon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Oculta/visible según dispositivo */
+.desktop-only {
+  display: flex;
+}
+.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .desktop-only {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+    font-size: 22px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .header__mobileSearchOverlay {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #121212;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .header__mobileSearchBox {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .header__mobileSearchBox input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .header__mobileCloseBtn {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #551c84;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .header__mobileSuggestions {
+    overflow-y: auto;
+    flex: 1;
+  }
+}
+
+
+
+@media screen and (max-width: 1920px) {
+  .header__navButtons {
+    margin-left: 3vh;
+  }
+
+  .header__searchContainer {
+    width: 250px;
+    margin-left: 10px;
+  }
+
+  .header__search input {
+    font-size: 13px;
+  }
+
+  .header__arrowButton {
+    font-size: 32px;
+    padding: 6px;
+  }
+
+  .header__suggestionTitle {
+    font-size: 13px;
+  }
+
+  .header__suggestionArtist {
+    font-size: 11px;
+  }
+
+  .header__userPhoto {
+    width: 28px;
+    height: 28px;
+  }
+
+  .header__userInfo span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__navButtons {
+    margin-left: 3vh;
+  }
+
+  .header__searchContainer {
+    width: 150px;
+    margin-right: 50px;
+  }
+
+  .header__search input {
+    font-size: 13px;
+  }
+
+  .header__arrowButton {
+    font-size: 32px;
+    padding: 6px;
+  }
+
+  .header__suggestionTitle {
+    font-size: 13px;
+  }
+
+  .header__suggestionArtist {
+    font-size: 11px;
+  }
+
+  .header__userPhoto {
+    width: 28px;
+    height: 28px;
+  }
+
+  .header__userInfo span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__navButtons {
+    margin-left: 3vh;
+  }
+
+  .header__searchContainer {
+    width: 120px;
+    margin-right: 50px;
+  }
+
+  .header__search input {
+    font-size: 12px;
+  }
+
+  .header__arrowButton {
+    font-size: 28px;
+    padding: 4px;
+    margin-left: 5px;
+  }
+
+  .header__suggestionTitle {
+    font-size: 12px;
+  }
+
+  .header__suggestionArtist {
+    font-size: 10px;
+  }
+
+  .header__userPhoto {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header__userInfo span {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .header__userInfo span {
+    display: none;
+  }
+}
+
+
+
